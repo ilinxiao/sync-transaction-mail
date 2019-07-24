@@ -250,9 +250,7 @@ def login_mail(host='pop.qq.com',user=mail_user_name,password=mail_password):
         print('正在连接QQ邮箱...')
         login_count+=1
         # host='pop.163.com'
-        # username='18826500406@163.com'
         # print('正在连接163邮箱...')
-        # password='linxiao163'
         pop_conn = poplib.POP3_SSL(host)
         print('邮箱登陆成功。当前时间：%s' % datetime.datetime.now().strftime('%Y年%m月%d日 %H:%M:%S'))
         #pop_conn.set_debuglevel(2)
