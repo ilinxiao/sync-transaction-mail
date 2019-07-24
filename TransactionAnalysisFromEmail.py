@@ -44,7 +44,7 @@ mail_user_name='940950943@qq.com'
 
 #邮箱pop登陆授权码
 global mail_password
-mail_password='yilcvfhfjkowbcejsfsf'
+mail_password='yilcvfhfjkoxxxwbcejsffsf'
 
 #记录重复登陆的次数
 global login_count
